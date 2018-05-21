@@ -1,0 +1,48 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/list_item_marg"
+    android:clickable="true"
+    android:elevation="8dp"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardCornerRadius="8dp"
+    tools:targetApi="lollipop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--suppress AndroidLintContentDescription -->
+        <com.example.xyzreader.ui.DynamicHeightNetworkImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/photo_placeholder"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/article_title"
+            android:maxLines="4"
+            style="@style/list_item_style"
+            android:paddingTop="@dimen/list_item_padTop"
+            android:textColor="@android:color/background_dark"
+            android:textSize="@dimen/list_item_Head"
+             />
+
+        <TextView
+            android:id="@+id/article_subtitle"
+            style="@style/list_item_style"
+            android:maxLines="2"
+            android:textColor="@color/subTextColor"
+            android:textSize="@dimen/list_item_subHead"
+            />
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

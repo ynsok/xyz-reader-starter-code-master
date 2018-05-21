@@ -1,0 +1,11 @@
+<resources>
+    <!-- detail -->
+    <bool name="detail_is_card">true</bool>
+
+    <dimen name="detail_photo_height">600dp</dimen>
+    <dimen name="arrow_widght">80dp</dimen>
+    <dimen name="detail_inner_horiz_margin">200dp</dimen>
+    <dimen name="list_item_Head">20sp</dimen>
+    <dimen name="detail_card_top_margin">256dp</dimen>
+    <dimen name="image_toolbar">300dp</dimen>
+</resources>
