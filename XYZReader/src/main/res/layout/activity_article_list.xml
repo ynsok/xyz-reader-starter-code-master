@@ -10,9 +10,8 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/toolbar_container"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/AppBarHeight"
-        android:fitsSystemWindows="true"
-        android:minHeight="@dimen/AppBarMinHeigt">
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true">
 
 
         <android.support.design.widget.CollapsingToolbarLayout
@@ -45,7 +44,7 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/logo"
                 android:contentDescription="TODO"
-                tools:ignore="ContentDescription" />
+                tools:ignore="ContentDescription,HardcodedText" />
 
 
         </android.support.design.widget.CollapsingToolbarLayout>

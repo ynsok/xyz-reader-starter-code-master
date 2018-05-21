@@ -39,7 +39,7 @@ import android.text.TextUtils;
  */
 public class SelectionBuilder {
     private String mTable = null;
-    private HashMap<String, String> mProjectionMap;
+    // --Commented out by Inspection (21.05.2018 22:40):private HashMap<String, String> mProjectionMap;
     private StringBuilder mSelection;
     private ArrayList<String> mSelectionArgs;
 
